@@ -11,7 +11,7 @@ public class Ceaser_Cypher
     for(int i=0;i<s.length();i++)
     {
       if(s.charAt(i)!=' ')
-      s.setCharAt(i,(char)(((int)s.charAt(i)+n-97)%26+97));
+        s.setCharAt(i,(char)(((int)s.charAt(i)+n-97)%26+97));
     }
     for(int i=0;i<s.length();i++)
     {
