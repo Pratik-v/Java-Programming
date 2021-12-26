@@ -6,9 +6,9 @@ class ExitExp extends Exception{
     System.out.println("Exception Triggered"); 
   } 
 } 
-class ML implements MouseListener { 
+class AWT-MouseEvent implements MouseListener { 
   Frame f; Label l; 
-  ML() { 
+  AWT-MouseEvent() { 
     f=new Frame(); 
     f.setSize(500,500); 
     f.addMouseListener(this); 
@@ -34,6 +34,6 @@ class ML implements MouseListener {
     System.out.println("Mouse Entered"); 
   } 
   public static void main(String args[]) { 
-    ML m=new ML(); 
+    AWT-MouseEvent m=new AWT-MouseEvent(); 
   } 
 }
